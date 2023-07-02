@@ -1,0 +1,194 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .box{
+    background-image: url(https://i.pinimg.com/originals/e6/d7/26/e6d72608585bb96b2330b1ff86ab652e.jpg);
+    min-height: 700px;
+    width: 100%;
+    border: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+  }
+  .container{
+    position: center;
+    margin: auto;
+    width: 100%;
+    border: solid black;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #10d609;
+    color: rgb(17, 229, 240);
+    padding: 2.5%;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    font-size: 30px;
+  }
+  
+  #home, #about, #blog, #content {
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: rgba(245, 229, 229, 0.881);
+    border-top: 2px solid #5175C0;
+    border-bottom: 2px solid #5175C0;
+  }
+  
+  #home:hover, #about:hover, #blog:hover, #content:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 0.5%;
+  }
+  
+  h1 {
+    font-size: 200%;
+    text-align: center;
+  }
+  
+  p{
+    transition: 1s ease;
+    font-size: 2.5vh;
+    letter-spacing: 0.05em;
+    line-height: 1.15em;
+    color: #fff;
+    font-family: Impact;
+  }
+  
+  #main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebebeb;
+    width: 100vw;
+    border-bottom: 3px solid #5175C0;
+  }
+  
+  #law-main {
+    width: 50%;
+    border-radius: 10%;
+    border: 1px solid black;
+  }
+  
+  #main-cloth {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  #about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebebeb;
+    width: 100vw;
+    height: 150vh;
+    border-bottom: 3px solid #5175C0;
+  }
+  
+  #mission {
+    text-align: center;
+    padding-top: 3vh;
+    text-decoration: underline;
+    font-size: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  #about-text {
+    padding-top: 2vh;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2vh;
+  }
+  
+  #earnings-text {
+    padding-top: 2vh;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  #slumgullion-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: snow;
+    border: 1px solid black;
+    border-radius: 2%;
+    padding: 2%;
+    padding-bottom: 1%;
+    width: 40vw;
+    transition: 1s ease;
+  }
+  
+  #slumgullion-card:hover{
+    width: 45vw;
+  }
+  
+  #slumgullion {
+    width: 40vw;
+    border-radius: 2%;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 1s ease;
+  }
+  
+  #slumgullion:hover{
+    width: 45vw;
+  }
+  
+  #earnings {
+    padding-top: 2vh;
+  }
+  
+  table,th {
+    border: 1px solid black;
+    font-size: 0.9em;
+  }
+  
+  #menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .product-img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20%;
+    border: 1px solid black;
+  }
+  
+  .menu-card {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #menu{
+    width: 100vw;
+    height: 100vw;
+    border-bottom: 3px solid #fcfcfc;
+  }
+  
+  #form{
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer {
+    font-size: 10px;
+    text-align: center;
+    color: #ebebeb;
+  }

@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .box{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/54ab95cae4b0867c63ca67db/1546099967264-UJ7BC0PCMUCED66IXX7R/bigstock-Quill-pen-and-ink-well-resting-89718662.jpg);
+    min-height: 700px;
+    width: 100%;
+    border: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+  }
+
+  .container{
+    position: center;
+    margin: auto;
+    width: 1700px;
+    border: solid black;
+  }
+
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    opacity: 0.9;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #0040ff;
+  }
+  
+  #brand {
+    color: rgb(13, 240, 20);
+    font-family: rockwell;
+    font-weight: 1000;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 0;
+  }
+  
+  ul {
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  ul li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 24px;
+  }
+  
+  ul li a {
+    flex-grow: 1;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px;
+  }
+  
+  ul li a:hover {
+    font-size: 25px;
+    color: orange;
+    border-top: 1px solid white;
+    border-bottom: 1 solid white;
+  }
+
+  .intro{
+    position: relative;
+    margin: 10px;
+    font-family: 'Trebuchet MS';
+    padding-left: 10px;
+    text-align: justify;
+    justify-content: left;
+    margin: 10px;
+    font-size: 30px;
+
+  }
+  footer{
+    text-align: justify;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    color: solid rgb(25, 220, 165);
+    width: 100%;
+    padding: auto;
+    background-color: rgb(32, 253, 227);
+  }
+  
+  

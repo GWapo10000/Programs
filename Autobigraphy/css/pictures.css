@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  display: none;
+}
+
+.box {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201014/pngtree-neon-futuristic-background-cyber-retro-purple-pink-blue-ultraviolet-vibrant-glowing-image_416832.jpg);
+  min-height: 700px;
+  width: 100%;
+  border: 10px;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: repeat(3);
+  background-size: cover;
+  position: center;
+}
+
+.container {
+  position: center;
+  width: 100%;
+}
+
+.pic {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.gallery {
+  position: relative;
+  text-align: center;
+  font-family: Cooper;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px lightgray;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.gallery:before{
+  content: "MY GALLERY";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: -100px;
+  opacity: 0;
+  transition: .3s;
+  transition-delay: .2s;
+  z-index: 1;
+}
+.gallery:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0,0,0,.4);
+  transition: .3s;
+}
+.gallery:hover:after{
+  height: 100%;
+}
+.gallery:hover::before{
+  margin-top: 0;
+  opacity: 1;
+}
+
+nav {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  opacity: 0.9;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #0040ff;
+}
+
+#brand {
+  color: rgb(13, 240, 20);
+  font-family: rockwell;
+  font-weight: 1000;
+  font-size: 40px;
+  margin: auto;
+  margin-top: 0;
+}
+
+ul {
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+ul li a {
+  flex-grow: 1;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 2px;
+}
+
+ul li a:hover {
+  font-size: 25px;
+  color: orange;
+  border-top: 1px solid white;
+  border-bottom: 1 solid white;
+}
+
+footer {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  color: solid rgb(25, 220, 165);
+  width: 100%;
+  padding: auto;
+  background-color: rgb(32, 253, 227);
+}

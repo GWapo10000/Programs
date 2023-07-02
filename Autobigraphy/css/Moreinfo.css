@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .box{
+    background-image: url(https://i.pinimg.com/originals/96/7a/45/967a4534691660529232af049182218d.jpg);
+    min-height: 100vh;
+    width: 100%;
+    border: 10px;
+    border-radius: 10px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+  }
+  .container{
+    position: center;
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    border: solid black;
+  }
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    opacity: 0.9;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #0040ff;
+  }
+  
+  #brand {
+    color: rgb(13, 240, 20);
+    font-family: rockwell;
+    font-weight: 1000;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 0;
+  }
+  
+  ul {
+    margin: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  ul li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 24px;
+  }
+  
+  ul li a {
+    flex-grow: 1;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 2px;
+  }
+  
+  ul li a:hover {
+    font-size: 25px;
+    color: orange;
+    border-top: 1px solid white;
+    border-bottom: 1 solid white;
+  }
+  .social{
+    display: flex;
+    margin-left: 35%;
+    font-family: Ravie;
+    color: coral;
+    font-size: 30px;
+    }
+  .fb{
+    width: 100px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+  }
+  .fb:hover{
+    transform:scale(1.3);
+    z-index: 2;
+  }
+  .insta{
+    width: 100px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+  }
+  .insta:hover{
+    transform:scale(1.3);
+    z-index: 2;
+  }
+    .yt{
+      width: 100px;
+      transition: 1s;
+    }
+    .yt:hover{
+      transform:scale(1.3);
+      z-index: 2;
+    }
+  .mygirl{
+    margin-left: 5%;  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    }
+    
+  .picture {
+    position: relative;
+    margin-left: 15%;
+    }
+  .picture img{
+      margin-left: 17%;
+      padding: 15px;
+      width: 400px;
+      height: 400px;
+  }  
+  .caption{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium';
+  }
+
+h1{
+  font-size: 100px;
+  font-family: 'Courier New';
+  color: #f5ad42;
+  text-align: center;
+}
+  footer{
+    text-align: justify;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    color: solid rgb(25, 220, 165);
+    width: 100%;
+    padding: auto;
+    background-color: rgb(32, 253, 227);
+  }
+  
+  

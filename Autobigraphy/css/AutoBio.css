@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .picture {
+    /* The image used */
+    background-image: url(https://media.tenor.com/AwMCvyYjPgAAAAAC/anime-welcome.gif);
+    min-height: 100vh;
+    width: 100%;
+    border: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+  }
+  .side{
+
+  height: 100px;
+  width: 100px;
+  justify-content: left;
+  border-radius: 50%;
+  border: 2px solid black; 
+}
+  /* Position the navbar container inside the image */
+  .container {
+    position: center;
+    margin: auto;
+    width: 100%;
+    border: solid black;
+  }
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    opacity: 100;
+    width: 100%;
+    justify-content: space-between 5px;
+    background-color: #0040ff;
+  }
+  
+  #brand {
+    color: rgb(13, 240, 20);
+    font-family: rockwell;
+    font-weight: 1000;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 0;
+  }
+  
+  ul {
+    margin: auto;;
+    padding: auto;
+  }
+  ul li {
+    margin: auto;
+    justify-content: center;
+    list-style: none;
+    display: inline;
+    text-align: center;
+    line-height: 10px;
+  }
+  
+  ul li a {
+    flex-grow: 1;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 5px;
+  }
+  
+  ul li a:hover {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    border-top: 1px solid white;
+    border-bottom: 1 solid white;
+  }
+
+  footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    color: solid rgb(25, 220, 165);
+    width: 100%;
+    padding: auto;  
+    background-color: rgb(32, 253, 227);
+  
+  }
+  
+  

@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .box{
+    background-image: url(https://ramenparados.com/wp-content/uploads/2020/11/dr-stone-reboot-destacado.jpg);
+    min-height: 700px;
+    width: 100%;
+    border: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+  }
+  .container{
+    position: center;
+    margin: auto;
+    width: 100%;
+    border: solid black;
+  }
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    display: flex;
+    opacity: 0.9;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #0040ff;
+  }
+  
+  #brand {
+    color: rgb(13, 240, 20);
+    font-family: rockwell;
+    font-weight: 1000;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 0;
+  }
+  
+  ul {
+    margin: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  ul li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 24px;
+  }
+  
+  ul li a {
+    flex-grow: 1;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 2px;
+  }
+  
+  ul li a:hover {
+    font-size: 25px;
+    color: orange;
+    border-top: 1px solid white;
+    border-bottom: 1 solid white;
+  }
+  
+
+  .tbl{
+    padding-top: 15px;
+    width: 1000px;
+    position: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  table, th, td {
+    font-family: Arial;
+    font-size: 35px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  table, th, td {
+    padding: 15px;
+  }
+
+  th{
+    font-size: 40px;
+    font-weight: 1000px;
+    text-align: center;
+    font-family: 'Courier New';
+    background-color: #00ff66;
+  }
+  tr:nth-child(even) {
+    background-color: #00e5ff;
+  }
+  tr:nth-child(odd){
+    background-color: #eeff00;
+  }
+  
+  footer{
+      text-align: justify;   
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      font-style: bold;
+      color: solid rgb(25, 220, 165);
+      width: 100%;
+      padding: auto;
+      background-color: rgb(32, 253, 227);
+    }
+
+  
+  
